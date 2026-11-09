@@ -1,0 +1,21 @@
+/* Tambahan kecil di luar portal.css (portal.css asli dari zip 1 jangan diubah) */
+
+/* Dropdown profil + tombol keluar */
+.profile-wrap { position: relative; }
+.profile-dropdown { position: absolute; right: 0; top: calc(100% + 10px); min-width: 150px; background: #fff; border: 1px solid var(--line, #e0e7f1); border-radius: 10px; box-shadow: 0 10px 30px rgba(31, 45, 68, .12); padding: 6px; display: none; z-index: 50; }
+.profile-dropdown.is-open { display: block; }
+.profile-dropdown button { width: 100%; text-align: left; border: 0; background: transparent; padding: 10px 12px; border-radius: 8px; font-size: 13px; color: #d93030; cursor: pointer; }
+.profile-dropdown button:hover { background: #fff0f0; }
+
+/* Chip status presensi (Hadir / Izin / Sakit / Alpha) */
+.permit-status.hadir { background: #eaf7f1; color: #13865e; }
+.permit-status.izin  { background: #edf3ff; color: #2458d8; }
+.permit-status.sakit { background: #fff4e5; color: #ad650c; }
+.permit-status.alpha { background: #fff0f0; color: #e13c3c; }
+
+/* Halaman 403 / 404 / admin */
+.simple-page { max-width: 560px; margin: 60px auto; }
+.simple-page .empty-state { padding: 40px 20px; }
+
+/* Jarak antar kartu di halaman presensi (rekap + riwayat pertemuan) */
+.attendance-card + .attendance-card { margin-top: 20px; }
